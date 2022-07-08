@@ -1,8 +1,11 @@
 #pragma once
-class Admin{
+#include "User.h"
+
+
+class Admin : public User{
 private:
-
+	string email;
 public:
-
+	Admin(string email = "none");
 };
 
